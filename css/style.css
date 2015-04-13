@@ -1,0 +1,313 @@
+html, body, nav, section, img, ul, p {
+	margin: 0 auto;
+	padding: 0;
+	font-family: "Helvetica", sans-serif;
+}
+
+.content {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+/*NAV*/
+#logo-image {
+	margin-top: 50px;
+	float: left;
+}
+
+
+.title {
+	float: left;
+}
+
+.title>li{
+	list-style-type: none;
+	float: left;
+	padding-top: 55px;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 30px;
+	color: #999999;
+}
+
+#nav-links-list {
+	float: right;
+	margin-top: 0;
+}
+
+#nav-links-list>li{
+	list-style-type: none;
+	float: left;
+	padding-left: 68px;
+	padding-top: 65px;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 20px;
+}
+
+#nav-links-list>li>a{
+	text-decoration: none;
+	color: #808080;
+}
+
+/*HEADER*/
+.main-header {
+	text-align: center;
+}
+
+/*SECTION ONE*/
+#numero-uno {
+	background-color: #ff6666;
+	height: 600px;
+}
+
+#info-grid{
+	padding-top: 130px;
+}
+
+.info-text {
+	float: left;
+	height: 150px;
+	width: 235px;
+	padding-left: 75px;
+	text-align: center;
+	padding-bottom: 75px;
+}
+
+
+/*SECTION TWO*/
+.numero-dos {
+	padding-bottom: 100px;
+	padding-top: 40px;
+}
+
+#left-side-text {
+	max-width: 235px;
+	float: left;
+	padding-top: 60px;
+}
+
+#left-side-big{
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 700;
+	font-size: 38px;
+	padding-bottom: 20px;
+}
+
+#left-side-medium {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	padding-bottom: 30px;
+
+}
+
+#left-side-small {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+#left-side-text>button{
+	width: 100px;
+	height: 40px;
+	background-color: #ff6666;
+	border: none;
+	color: #ffffff;
+	font-size: 16px;
+	margin-top: 60px;
+	margin-bottom: 200px;
+}
+
+.image-grid {
+	float: left;
+	width: 235px;
+	padding-left: 20px;
+	list-style-type: none;
+	padding-top: 60px; 
+}
+
+#thumb-image1{
+	background-image: url("../imgs/buzz-aldrin.png");
+	width: 235px;
+	height: 235px;
+	background-position: -60px -20px;
+	background-repeat: none;
+}
+
+#thumb-image2{
+	background-image: url("../imgs/runway.png");
+	width: 235px;
+	height: 235px;
+	background-position: -60px -20px;
+	background-repeat: none;
+}
+
+#thumb-image3{
+	background-image: url("../imgs/moon-walk.png");
+	width: 235px;
+	height: 235px;
+	background-position: -60px -20px;
+	background-repeat: none;
+}
+
+#thumb-image4{
+	background-image: url("../imgs/rainbow-plane.png");
+	width: 235px;
+	height: 235px;
+	background-position: -300px -180px;
+	background-repeat: none;
+}
+
+#thumb-image5{
+	background-image: url("../imgs/steel-pill.png");
+	width: 235px;
+	height: 235px;
+	background-position: -60px -20px;
+	background-repeat: none;
+}
+
+#thumb-image6{
+	background-image: url("../imgs/astronauts.png");
+	width: 235px;
+	height: 235px;
+	background-position: -60px -20px;
+	background-repeat: none;
+}
+
+#caption{
+	padding-top: 30px;
+}
+
+#caption-title{
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+
+#caption>p{
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0;	
+}
+
+
+
+/*SECTION THREE*/
+
+.numero-tres{
+	background-color: #333333;
+}
+
+.logos{
+	margin: auto 0;
+	padding-top: 125px;
+}
+
+.logo-group li{
+	float: left;
+	list-style-type: none;
+	color: #ffffff;
+	width: 235px;
+	text-align: center;
+	padding-left: 20px;
+	padding-bottom: 125px;	
+}
+
+.logo-group>li:first-child{
+	padding-left: 0;
+}
+
+#logo1 {
+	font-family: "Lora", sans-serif;
+	font-size: 48px;
+}
+
+#logo2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 48px;
+}
+
+#logo3 {
+	font-family: "Signika", sans-serif;
+	font-size: 48px;
+}
+
+#logo4 {
+	font-family: "Lato", sans-serif;
+	font-size: 48px;
+}
+
+
+
+/*SECTION FOUR*/
+
+.numero-quatro{
+	background-color: #ffff66;
+}
+
+.question>ul{
+	text-align: center;
+	max-width: 490px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.question>ul>li{
+	list-style-type: none;
+	color: #575757;
+}
+
+#middle-big{
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 300;
+	font-size: 48px;
+	padding-bottom: 20px;
+}
+
+#middle-small{
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	padding-bottom: 40px;
+}
+
+.question>ul>button{
+	width: 160px;
+	height: 50px;
+	background-color: #333333;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+}
+
+
+/*FOOTER*/
+
+.info>ul{
+	color: #cecece;
+	font-weight: 300;
+	font-size: 18px;
+	list-style-type: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#left-side{
+	float: left;
+}
+
+#right-side{
+	float: right;
+}
+
+/*CLEARFIX*/
+.clearfix {
+	overflow: auto;
+}
+
+
+
+
+
